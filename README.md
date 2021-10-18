@@ -1,3 +1,48 @@
+## CSS stylesheets
+
+- Change the default colour for links
+- Change the default visited colour of links
+- add a "css reset" globally to remove padding and set the box-sizing for all elements to "border-box"
+
+Extension
+
+- Import a font from google fonts
+- Apply this font to your site globally (what existing file might this want to go in?)
+
+## Inline styling
+
+In the App.js
+
+- In the App add an inline style to centre the title (h1)
+
+In the Home folder
+
+- Create a javascript file called HomeStyles
+- Within this file create an object called HomeStyles
+  - the keys you create should match the name of the element you'd like to style
+  - and the values should be style objects that use the same syntax for inline styles
+- import this file into Home.js
+- use object notation to add the inline styles from the imported file
+
+## Styled components
+
+- Import styled components into your Navigation.js file
+- In the navigation component use styled components to
+  - style the container
+  - style each link in your nav differently
+
+## CSS Modules
+
+- create an about css module in the About folder
+- create some style declarations for the About component
+- import your styles into the About component
+- apply styling to relevant jsx elements
+- Extension: create a media query and/or css transition for the react logo
+
+## Contact Us Page
+
+- Choose your favourite styling approach and practice!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,11 @@
+div {
+    text-align: center;
+}
+
+.heading {
+    text-shadow: 4px 4px 5px #57e1b1;
+    text-align: center;
+}
+
+img {
+    filter: invert(55%) sepia(23%) saturate(703%) hue-rotate(255deg) brightness(86%) contrast(86%);}
